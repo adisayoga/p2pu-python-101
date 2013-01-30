@@ -2,11 +2,11 @@
 # output results
 
 # Volume of a Cylinder
-# V = pi * r * r * h
+# V = pi * r ** 2 * h
 
 pi = 3.14159265
 r = float(raw_input('Radius: '))
 h = float(raw_input('Height: '))
 
-v = pi * r * r * h
+v = pi * r ** 2 * h
 print 'Volume: ' + str(v)
